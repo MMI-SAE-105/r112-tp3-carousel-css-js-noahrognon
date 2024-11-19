@@ -56,3 +56,19 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 .carousel__item img {
   display: block;/* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
 }
+.carousel__nav {
+  display: flex; /* Utilise flexbox pour aligner les éléments enfants - https://developer.mozilla.org/fr/docs/Web/CSS/display */
+  justify-content: center; /* Centre les éléments enfants horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
+  gap: 8px; /* Espace entre les éléments enfants 8px - https://developer.mozilla.org/fr/docs/Web/CSS/gap */
+  margin-top: 16px; /* Marge de 16px en haut - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
+}
+
+.carousel__nav-button {
+  width: 12px; /* Largeur du bouton 12px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
+  height: 12px; /* Hauteur du bouton 12px - https://developer.mozilla.org/fr/docs/Web/CSS/height */
+  border: none; /* Supprime la bordure par défaut - https://developer.mozilla.org/fr/docs/Web/CSS/border */
+  border-radius: 50%; /* Bordure arrondie pour faire un cercle - https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+  background-color: #ccc; /* Couleur de fond gris clair - https://developer.mozilla.org/fr/docs/Web/CSS/background-color */
+  cursor: pointer; /* Change le curseur en pointeur pour indiquer que c'est cliquable - https://developer.mozilla.org/fr/docs/Web/CSS/cursor */
+}
+
